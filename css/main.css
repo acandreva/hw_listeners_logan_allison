@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+nav {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    width: 20%;
+    color: #FFF;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 90%;
+    background-image: url(../img/stardust.png);
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+article {
+    width: 45%;
+}
+
+p {
+    line-height: 20px;
+}
+
+#allthings {
+    float:left;
+}
+
+#quote {
+    float: right;
+}
+
+#openwin {
+    padding: 10px;
+    background-color: #CCC;
+}
