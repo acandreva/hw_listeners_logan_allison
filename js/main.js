@@ -1,7 +1,8 @@
-var submitButton = document.getElementById( "submit" );
+var myForm = document.getElementById( "myform" );
 
 
-submitButton.addEventListener( "click", function () {
+myForm.addEventListener( "submit", function(event) {
+        event.preventDefault();
 
         console.log( "The firstName is " + document.forms["myform"].elements["fname"].value );
         console.log( "The lastName is " + document.forms["myform"].elements["lname"].value );
